@@ -1,0 +1,11 @@
+{"FLAG”=“REG” , “SENDER”=“nama_client” , “RECEIVER” = “server” , “CONTENT” ={username=“username” password=“password”} , “TYPE=“TEXT” }
+
+jika registrasi berhasil server akan mengembalikan response sebagai berikut
+
+Format response registrasi (berhasil)
+{“FLAG”=“DATA” , “CONTENT” =“anda berhasil terdaftar dengan username: user_name” , “TYPE=“TEXT” , CODE=“REG_OK”}
+
+jika registrasi gagal server akan mengembalikan response sebagai berikut
+
+Format response registrasi (gagal)
+{“FLAG”=“DATA” , “CONTENT” =“username sudah terdaftar” , “TYPE=“TEXT” , CODE=“REG_DUPE”}
