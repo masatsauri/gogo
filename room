@@ -1,0 +1,7 @@
+{“FLAG”=“MAKE_ROOM” , “SENDER”=“nama_client” , “RECEIVER” = “server” , “CONTENT” =nama_room, “TYPE=“TEXT” }
+
+Format response membuat room (berhasil)
+{“FLAG”=“DATA” , “CONTENT” =“nama_room berhasil dibuat” , “TYPE=“TEXT” , CODE=“MAKE_ROOM_OK”}
+
+Format response membuat room (gagal)
+{“FLAG”=“DATA” , “CONTENT” =“nama_room sudah ada” , “TYPE=“TEXT” , CODE=“MAKE_ROOM_DUPE”}
